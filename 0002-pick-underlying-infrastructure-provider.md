@@ -8,12 +8,12 @@ Accepted
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+We need to decide whether or not we'd like to build our underlying application infrastructure on a fully managed Cloud services approach (e.g. AWS) or on Kubernetes.
 
 ## Decision
 
-The change that we're proposing or have agreed to implement.
+We've decided to go forward with building our application stack on Kubernetes. Further discussions as to where Kubernetes will be hosted needed.
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+Our application landscape will be exclusively run on Kubernetes cluster(s). 
